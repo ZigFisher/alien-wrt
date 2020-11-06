@@ -1,0 +1,6 @@
+[submodule "ipc_chip_info"]
+	path = ipc_chip_info
+	url = https://github.com/OpenIPC/ipc_chip_info
+[submodule "burn"]
+	path = burn
+	url = https://github.com/OpenIPC/burn/tree/dev
