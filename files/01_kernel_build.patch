@@ -1,0 +1,13 @@
+diff --git a/openwrt-overlay/target/linux/hi3516ev200/config-4.9.37 b/openwrt-overlay/target/linux/hi3516ev200/config-4.9.37
+index 1089c21..13f87b7 100644
+--- a/openwrt-overlay/target/linux/hi3516ev200/config-4.9.37
++++ b/openwrt-overlay/target/linux/hi3516ev200/config-4.9.37
+@@ -162,6 +162,8 @@ CONFIG_CRYPTO_SHA256=y
+ CONFIG_CRYPTO_WORKQUEUE=y
+ CONFIG_DCACHE_WORD_ACCESS=y
+ CONFIG_DEBUG_BUGVERBOSE=y
++CONFIG_MAGIC_SYSRQ=y
++CONFIG_MAGIC_SYSRQ_DEFAULT_ENABLE=0x1
+ CONFIG_DEBUG_KERNEL=y
+ CONFIG_DEBUG_LL_INCLUDE="mach/debug-macro.S"
+ CONFIG_DEBUG_MEMORY_INIT=y

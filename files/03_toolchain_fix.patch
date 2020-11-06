@@ -1,0 +1,12 @@
+diff --git a/openwrt-19.07.3/toolchain/Config.in b/openwrt-19.07.3/toolchain/Config.in
+index 95087b7..db7eafa 100644
+--- a/openwrt-19.07.3/toolchain/Config.in
++++ b/openwrt-19.07.3/toolchain/Config.in
+@@ -252,7 +252,6 @@ choice
+ 		select USE_UCLIBC
+ 		bool "Use uClibc"
+ 		depends on !(aarch64 || aarch64_be || powerpc64)
+-		depends on BROKEN || !(arm || armeb || i386 || x86_64 || mips || mipsel || mips64 || mips64el || powerpc)
+ 
+ 	config LIBC_USE_MUSL
+ 		select USE_MUSL
