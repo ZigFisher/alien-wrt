@@ -18,5 +18,6 @@ openwrt-patch:
 openwrt-prepare:
 	cd openwrt-19.07.3; \
 		./scripts/feeds update -a; \
-		./scripts/feeds install -a;
+		./scripts/feeds install -a; \
+
 
